@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: OneTJ
-  text: 同济大学学生服务客户端
-  tagline: ✨提供简洁、专注的使用体验，支持查看学生个人信息与校历相关内容
+  text: 同济大学学生服务客户端 - 一统同济
+  tagline: ✨基于 Flutter，提供简洁、专注的使用体验
   actions:
     - theme: brand
       text: 开始
@@ -13,8 +13,8 @@ hero:
       text: 配置
       link: /reference/config/pubspec
   image:
-    src: /teek-logo-large.png
-    alt: Teek
+    src: /foreground.png
+    alt: OneTJ
 
 features:
   - icon: 🔐
@@ -22,7 +22,7 @@ features:
     details: 基于OAuth 2.0的同济大学统一身份认证系统，支持自动令牌刷新
   - icon: 👤
     title: 信息中心
-    details: 展示学生基本信息（姓名、学号、学院、年级等）
+    details: 展示学生基本信息（姓名、学号、学院）
   - icon: 📚
     title: 课表管理
     details: 获取并展示学生课程安排，支持按周次查看
@@ -37,9 +37,6 @@ features:
     details: 支持中英文双语界面切换
 ---
 
-## 风格切换
-
-OneTJ 使用 Material Design 3 主题系统，提供现代化的视觉体验。支持跟随系统自动切换亮色/暗色主题。
 
 ## 💡 反馈交流
 
@@ -49,4 +46,4 @@ OneTJ 使用 Material Design 3 主题系统，提供现代化的视觉体验。�
 
 - **GitHub 仓库**：[oierxjn/OneTJ](https://github.com/oierxjn/OneTJ)
 - **原始仓库**：[FlowerBlackG/OneTJ](https://github.com/FlowerBlackG/OneTJ)
-- **同济大学 API**：api.tongji.edu.cn
+- **同济大学开放平台**：[同济大学开放平台](https://api.tongji.edu.cn/docs)
