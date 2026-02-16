@@ -1,34 +1,31 @@
----
-title: 支持这个项目
-date: 2025-08-06 23:53:30
+﻿---
+title: 关于项目组
+date: 2026-02-11 00:00:00
 sidebar: false
 article: false
 outline: false
 ---
 
-如果您正在使用这个项目并感觉这个项目给你带来帮助，或者是想支持我继续开发，您可以通过如下任意方式支持我：
+## 概览
 
-- Star 并分享 [VitePress Theme Teek](https://github.com/Kele-Bingtang/vitepress-theme-teek) 🚀
-- 通过以下二维码进行赞助，打赏作者一杯茶 🍵
+项目最初由 [FlowerBlackG](https://github.com/FlowerBlackG) 发起，名为 `一块钱` ，仓库位于 [FlowerBlackG/OneTJ](https://github.com/FlowerBlackG/OneTJ)。为了方便推进应用上架、改进应用架构和跨平台应用构建，本仓库于 2026年1月14日创建。
 
-谢谢！❤️
+## 成员
 
-|                                   微信赞赏                                   |                               微信                               |                            支付宝                            |
-| :--------------------------------------------------------------------------: | :--------------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="/qrcode/wechat-sponsor.jpg" alt="WeChat Sponsor QRcode" width=180> | <img src="/qrcode/wechat-pay.jpg" alt="WeChat QRcode" width=180> | <img src="/qrcode/alipay.jpg" alt="Alipay QRcode" width=180> |
+| Avatar | Name | Role | Responsibilities | Profile |
+| :--: | :-- | :-- | :-- | :-- |
+| <img src="/team/oierxjnlogo.jpg" alt="oierxjn" width="96" /> | oierxjn | 项目负责人 | 开发 | [GitHub](https://github.com/oierxjn) | 
+| <img src="/team/HalfAnElephantlogo.jpg" alt="HalfAnElephant" width="96" /> | HalfAnElephant | 项目成员 | / | [GitHub](https://github.com/HalfAnElephant) |
+| <img src="/team/FlowerBlackGlogo.jpg" alt="FlowerBlackG" width="96" /> | FlowerBlackG | 前项目负责人 | 开发 | [GitHub](https://github.com/FlowerBlackG) |
 
-您的赞助将帮助 Teek：
+## 联系我们
 
-- 维护项目的基础设施
-- 投入更多时间进行开发
-- 提供更好的技术支持
-- 开发更多实用功能
+- QQ 群: 322324184
+- GitHub Issues: https://github.com/oierxjn/OneTJ/issues
 
-## 致谢
+## 加入我们
 
-❤️ 感谢支持这个项目的朋友，您的每一份帮助都让这个项目变得更好！
-
-❤️ 感谢为这个项目贡献代码的朋友 → [Contributors](https://github.com/Kele-Bingtang/vitepress-theme-teek/graphs/contributors)
+请加入 QQ 群 322324184 进行交流，或者联系 [oierxjn](https://github.com/oierxjn) 
 
 <style scoped>
 .vp-doc table:focus-visible {
@@ -41,9 +38,11 @@ outline: false
 
 .vp-doc td {
   border: 1px solid var(--vp-c-divider);
+  vertical-align: middle;
 }
 
 img {
   display: inline-block;
+  border-radius: 8px;
 }
 </style>

@@ -11,7 +11,7 @@ const description = [
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   extends: teekConfig,
-  title: "OneTJ",
+  title: "一统同济",
   description: description,
   cleanUrls: false,
   lastUpdated: true,
@@ -19,18 +19,17 @@ export default defineConfig({
   head: [
     [
       "link",
-      { rel: "icon", type: "image/svg+xml", href: "/teek-logo-mini.svg" },
+      { rel: "icon", type: "image/jpeg", href: "/logo.jpg" },
     ],
-    ["link", { rel: "icon", type: "image/png", href: "/teek-logo-mini.png" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:locale", content: "zh-CN" }],
-    ["meta", { property: "og:title", content: "Teek | VitePress Theme" }],
-    ["meta", { property: "og:site_name", content: "Teek" }],
+    ["meta", { property: "og:title", content: "一统同济" }],
+    ["meta", { property: "og:site_name", content: "一统同济" }],
     ["meta", { property: "og:image", content: "" }],
     ["meta", { property: "og:url", content: "" }],
     ["meta", { property: "og:description", description }],
     ["meta", { name: "description", description }],
-    ["meta", { name: "author", content: "Teek" }],
+    ["meta", { name: "author", content: "OneTJ" }],
     // 禁止浏览器缩放
     // [
     //   "meta",
@@ -58,7 +57,7 @@ export default defineConfig({
     },
   },
   sitemap: {
-    hostname: "https://vp.teek.top", // ** 换成你的域名
+    hostname: "https://onetj.jkljkluiouio.top", // ** 换成你的域名
     transformItems: (items) => {
       const permalinkItemBak: typeof items = [];
       // 使用永久链接生成 sitemap
@@ -74,7 +73,7 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "/teek-logo-mini.svg",
+    logo: "/logo.jpg",
     darkModeSwitchLabel: "主题",
     sidebarMenuLabel: "菜单",
     returnToTopLabel: "返回顶部",
@@ -101,16 +100,11 @@ export default defineConfig({
         items: [
           { text: "归档页", link: "/archives" },
           { text: "清单页", link: "/articleOverview" },
-          { text: "登录页", link: "/login" },
-          {
-            text: "风险链接提示页",
-            link: "/risk-link?target=https://vp.teek.top",
-          },
           { text: "分类页", link: "/categories" },
           { text: "标签页", link: "/tags" },
         ],
       },
-      { text: "✨ 赞赏", link: "/personal/" },
+      { text: "✨ 项目组", link: "/personal/" },
     ],
     socialLinks: [
       {
@@ -124,7 +118,7 @@ export default defineConfig({
     editLink: {
       text: "在 GitHub 上编辑此页",
       pattern:
-        "https://github.com/oierxjn/OneTJ/edit/master/docs/:path",
+        "https://github.com/HalfAnElephant/OneTJ-Website/edit/main/docs/:path",
     },
   },
   vite: {
