@@ -6,14 +6,15 @@ Official documentation website for [OneTJ](https://github.com/oierxjn/OneTJ) - T
 
 ## Overview
 
-OneTJ is a Flutter-based mobile application that provides a clean and focused experience for Tongji University students to view personal information and academic calendar content.
+OneTJ is a Flutter-based mobile application that provides a clean and focused experience for Tongji University students to view personal information, academic calendar, course schedule, grades, exam schedules, and practical tools.
 
 ## Features
 
 - **Unified Authentication** - OAuth 2.0 based Tongji University unified identity authentication system with automatic token refresh
-- **Information Center** - Display student basic information (name, student ID, college, grade, etc.)
+- **Dashboard** - Aggregate student information, current semester calendar, and upcoming courses
 - **Course Schedule** - Fetch and display student course schedules with weekly view support
-- **Academic Calendar** - Show current semester, week number, and other calendar information
+- **Grades & Exams** - Undergraduate grades, CET scores, and student exam schedules
+- **Tools** - Physics lab data tools (Michelson, diffraction grating, Franck-Hertz)
 - **Local Storage** - Securely cache authentication and user data using Hive database
 - **Multi-language** - Support Chinese and English interface switching
 

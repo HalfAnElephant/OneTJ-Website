@@ -21,20 +21,20 @@ features:
     title: 统一认证
     details: 基于OAuth 2.0的同济大学统一身份认证系统，支持自动令牌刷新
   - icon: 👤
-    title: 信息中心
-    details: 展示学生基本信息（姓名、学号、学院）
+    title: 首页仪表盘
+    details: 展示学生信息、学期校历与即将上课的课程
   - icon: 📚
     title: 课表管理
-    details: 获取并展示学生课程安排，支持按周次查看
-  - icon: 📅
-    title: 校历服务
-    details: 显示当前学期、周次等校历信息，帮助掌握学期进度
+    details: 获取并展示学生课程安排，支持按周次查看与自定义节次
+  - icon: 📊
+    title: 成绩查询
+    details: 查询本科生成绩与 CET 四六级成绩
+  - icon: 🧪
+    title: 实验工具
+    details: 内置迈克尔逊、光栅衍射、夫兰克-赫兹物理实验数据处理工具
   - icon: 💾
     title: 本地存储
-    details: 使用Hive数据库安全缓存认证信息和用户数据
-  - icon: 🌍
-    title: 多语言
-    details: 支持中英文双语界面切换
+    details: 使用Hive数据库安全缓存认证信息和用户数据，支持离线访问
 ---
 
 
